@@ -70,7 +70,7 @@
 
 
 
-   /* TODO fix this structured data*/
+   // TODO fix this structured data
 
     <!-- <script type="application/ld+json">
         {
