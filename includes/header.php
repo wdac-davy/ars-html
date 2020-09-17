@@ -4,8 +4,8 @@
                     <div class="clearfix">
                         <div class="wt-topbar-left">
                             <ul class="list-unstyled e-p-bx pull-left">
-                                <li><i class="fa fa-envelope"></i>ARSOffice@advancedroofsys.com</li>
-                                <li><i class="fa fa-phone"></i>(844) 445-ROOF</li>
+                                <li><i class="fa fa-envelope"></i><a href="mailto:ARSOffice@advancedroofsys.com?">ARSOffice@advancedroofsys.com</a></li>
+                                <li><i class="fa fa-phone"></i><a href="tel:+18444457663">(844) 445-ROOF</a></li>
                             </ul>
                         </div>
 

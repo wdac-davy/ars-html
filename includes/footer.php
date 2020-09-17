@@ -96,7 +96,7 @@
                             </div>
                             <div class="icon-content">
                                 <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                                <p class="m-b0">(844) 455 ROOF</p>
+                                <p class="m-b0"><a href="tel:+18444457663">(844) 445-ROOF</a></p>
 
                             </div>
                         </div>
@@ -109,7 +109,7 @@
                             </div>
                             <div class="icon-content">
                                 <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                <p class="m-b0">ARSOffice@advancedroofsys.com</p>
+                                <p class="m-b0"><a href="mailto:ARSOffice@advancedroofsys.com?">ARSOffice@advancedroofsys.com</a></p>
 
                             </div>
                         </div>

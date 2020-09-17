@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="icon-content">
                                     <strong>Phone Number</strong>
-                                    <span>(844) 455-ROOF</span>
+                                    <span><a href="tel:+18444457663">(844) 445-ROOF</a></span>
                                 </div>
                             </div>
                         </li>
