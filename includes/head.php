@@ -69,8 +69,10 @@
     <script cid="2924" src="https://calculator.roofr.com/roofr-calculator.js"></script>
 
 
-  // TODO fix this structured data
-   /* <script type="application/ld+json">
+
+   // TODO fix this structured data
+
+    <!-- <script type="application/ld+json">
         {
          "@context": "http://schema.org",
          "@type": "NewsArticle",
@@ -103,4 +105,4 @@
          },
          "description": "My first experience in an AMPlified world"
         }
-</script>*/
+</script>-->
