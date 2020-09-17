@@ -70,9 +70,9 @@
 
 
 
-   /* TODO fix this structured data
+   /* TODO fix this structured data*/
 
-    <script type="application/ld+json">
+    <!-- <script type="application/ld+json">
         {
          "@context": "http://schema.org",
          "@type": "NewsArticle",
@@ -105,4 +105,4 @@
          },
          "description": "My first experience in an AMPlified world"
         }
-</script>*/
+</script>-->
