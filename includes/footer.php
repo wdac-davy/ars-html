@@ -1,6 +1,6 @@
 <footer class="site-footer footer-dark">
         <div class="call-to-action-wrap call-to-action-skew bg-primary bg-no-repeat"
-             style="background-image:url(images/background/bg-4.png);">
+             style="background-image:url(../images/background/bg-4.png);">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-8">
@@ -14,7 +14,7 @@
                     <div class="col-md-3">
                         <div class="call-to-action-right p-tb30">
                             <a class="site-button-secondry  m-r15 text-uppercase font-weight-600"
-                               href="contact-us.html">
+                               href="../contact-us.html">
                                 Contact us <i class="fa fa-angle-double-right"></i>
                             </a>
                         </div>
@@ -32,8 +32,8 @@
                         <div class="widget widget_about">
                             <h4 class="widget-title">ARS Construction</h4>
                             <div class="logo-footer clearfix p-b15">
-                                <a href="index.html"><img alt="ARS Construction Logo"
-                                                          src="images/ars/arsconstructionlogo.png"></a>
+                                <a href="../index.html"><img alt="ARS Construction Logo"
+                                                          src="../images/ars/arsconstructionlogo.png"></a>
                             </div>
                             <p>ARS Construction specializes in residential and commercial roofing along with exterior
                                 and interior construction. We have been servicing the Greater St Louis area since 2001
@@ -48,10 +48,10 @@
                         <div class="widget widget_services">
                             <h4 class="widget-title">Useful links</h4>
                             <ul>
-                                <li><a href="residential.html">Residential</a></li>
-                                <li><a href="commercial.html">Commercial</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="../residential.html">Residential</a></li>
+                                <li><a href="../commercial.html">Commercial</a></li>
+                                <li><a href="../about.html">About Us</a></li>
+                                <li><a href="../contact-us.html">Contact Us</a></li>
                             </ul>
                         </div>
 
@@ -68,10 +68,10 @@
                         <div class="widget widget_social_inks">
                             <h4 class="widget-title">Social Links</h4>
                             <ul class="social-icons social-square social-darkest">
-                                <li><a class="fa fa-facebook" href="https://www.facebook.com/AdvancedRoofs"></a></li>
-                                <li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-youtube" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
+                                <li><a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/AdvancedRoofs"></a></li>
+                                <li><a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/christianlarson/"></a></li>
+                                <li><a class="fa fa-youtube" target="_blank" href="https://www.youtube.com/channel/UChAI_u8qlCWm3-LvbF_Z0Nw"></a></li>
+                                <li><a class="fa fa-instagram" target="_blank" href="https://www.instagram.com/arsconstruction/"></a></li>
                             </ul>
                         </div>
                     </div>
