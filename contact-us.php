@@ -1,3 +1,11 @@
+<?php
+$Page='Contact Us';
+$Title='ARS Construction | Contact Us';
+$Url='https://www.advancedroofsys.com/contact-us';
+$metaDescription='At ARS Construction, our main priority is delivering the best customer service. We accomplish this by making sure we have the right team. Each member has the training and experience to handle any size job. We make sure to stay up-to-date on the latest trends so that we can answer any of your questions. If you are not sure about what would work best, our team is ready to help come up with a plan that you will be happy with. If you are ready for a change, call us today!';
+$metaImage='/images/fleet.jpg';
+$ogMetaDescription='Are you in need of a new roof? Do you need updating to the outside and inside of your home? If so, let the professionals at ARS Construction be the ones to help take your home to the next level. Professional St. Louis Construction.'
+?>
 <!DOCTYPE html>
 
 <html lang="en">
