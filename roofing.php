@@ -6,21 +6,21 @@
 
     <!-- META -->
     <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="" name="keywords"/>
-    <meta content="" name="author"/>
-    <meta content="" name="robots"/>
-    <meta content="" name="description"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="robots" content="" />
+    <meta name="description" content="" />
 
     <!-- FAVICONS ICON -->
-    <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
-    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 
     <!-- PAGE TITLE HERE -->
-    <title>ARS Construction | Residential Roofing Services</title>
+    <title>ARS Construction | Roofing Services</title>
 
     <!-- MOBILE SPECIFIC -->
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- [if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
@@ -32,49 +32,47 @@
     -->
 
 
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" />
     <!-- FLATICON STYLE SHEET -->
-    <link href="css/flaticon.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
     <!-- ANIMATE STYLE SHEET -->
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
     <!-- OWL CAROUSEL STYLE SHEET -->
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
-    <link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
     <!-- MAGNIFIC POPUP STYLE SHEET -->
-    <link href="css/magnific-popup.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
     <!-- LOADER STYLE SHEET -->
-    <link href="css/loader.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
     <!-- MAIN STYLE SHEET -->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- THEME COLOR CHANGE STYLE SHEET -->
-    <link class="skin" href="css/skin/skin-12.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-12.css">
     <!-- CUSTOM  STYLE SHEET -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
 
     <!-- GOOGLE MAP -->
-    <script src="https://maps.google.com/maps/api/js?senser=false" type="text/javascript"></script>
+    <script src="https://maps.google.com/maps/api/js?senser=false"  type="text/javascript"></script>
     <!-- GOOGLE MAP -->
     <!--<script src="https://maps.google.com/maps/api/js?sensor=fales"  type="text/javascript"></script>-->
     <!-- MAP FUCTIONS [ this file use with google map]  -->
-    <script src="js/map.script.js" type="text/javascript"></script>
+    <script type="text/javascript"  src="js/map.script.js"></script>
 
     <!-- REVOLUTION SLIDER CSS -->
-    <link href="plugins/revolution/revolution/css/settings.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
     <!-- REVOLUTION NAVIGATION STYLE -->
-    <link href="plugins/revolution/revolution/css/navigation.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
 
 
     <!-- GOOGLE FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
-          rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic'
-          rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i&amp;subset=latin-ext" rel="stylesheet">
     <!-- estimator js -->
 
-    <script cid="2924" src="https://calculator.roofr.com/roofr-calculator.js"></script>
+    <script src="https://calculator.roofr.com/roofr-calculator.js" cid="2924"></script>
 </head>
 
 <body>
@@ -110,8 +108,8 @@
         <div class="main-bar header-middle bg-white">
             <div class="container">
                 <div class="logo-header">
-                    <a href="index.html">
-                        <img alt="ARS Construction" height="37" src="images/ARS LOGO-header.png" width="216"/>
+                    <a href="index.php">
+                        <img src="images/ARS LOGO-header.png" width="216" height="37" alt="ARS Construction" />
                     </a>
                 </div>
                 <div class="header-info">
@@ -150,8 +148,7 @@
             <div class="main-bar header-botton nav-bg-secondry">
                 <div class="container">
                     <!-- NAV Toggle Button -->
-                    <button class="navbar-toggle collapsed" data-target=".header-nav" data-toggle="collapse"
-                            type="button">
+                    <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
@@ -163,40 +160,23 @@
                     <div class="header-nav navbar-collapse collapse ">
                         <ul class=" nav navbar-nav">
                             <li class="active">
-                                <a href="index.html">Home</a>
+                                <a href="Index">Home</a>
                             </li>
                             <li>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="gallery.php">Gallery</a>
                             </li>
                             <li>
-                                <a href="residential.html">Residential</a>
+                                <a href="#">Residential</a>
                             </li>
-                            <li class="active">
-                                <a href="javascript:">Commercial<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="commercial.html">Glendale Chrysler Jeep Dodge Ram</a></li>
-                                    <li><a href="salvation-army.html">Salvation Army</a></li>
-                                </ul>
-                            </li>
-                            <li class="active">
-                                <a href="javascript:">Home Improvement<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="exterior.html">Exterior</a></li>
-                                    <li><a href="interior.html">Interior</a></li>
-                                </ul>
-                            </li>
-                            <li class="active">
-                                <a href="javascript:">We Sponsor<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="miracles-n-progress.html">Miracles N' Progress</a></li>
+                            <li>
+                                <a href="#">Commercial</a>
 
-                                </ul>
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.php">About Us</a>
                             </li>
                             <li>
-                                <a href="contact-us.html">Contact Us</a>
+                                <a href="#">Contact Us</a>
                             </li>
                         </ul>
                     </div>
@@ -210,11 +190,11 @@
     <div class="page-content  bg-white">
 
         <!-- INNER PAGE BANNER -->
-        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/ars/different-hous.jpg);">
-            <div class="overlay-main bg-black opacity-02"></div>
+        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/banner/services.jpg);">
+            <div class="overlay-main bg-black opacity-07"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Residential Roofing Services</h1>
+                    <h1 class="text-white">Roofing</h1>
                 </div>
             </div>
         </div>
@@ -249,29 +229,47 @@
                                 </div>
                             </div>
                             <div class="wt-icon-box-wraper left bdr-1 bdr-gray p-a15 m-b15">
-                                <a class="btn-block" href="#">
+                                <a href="#" class="btn-block">
                                     <span class="text-black m-r10"><i class="fa fa-file-pdf-o"></i></span>
                                     <strong class="text-uppercase text-black">Download .PDF</strong>
                                 </a>
                             </div>
                             <div class="wt-icon-box-wraper left bdr-1 bdr-gray p-a15 m-b15">
-                                <a class="btn-block" href="#">
+                                <a href="#" class="btn-block">
                                     <span class="text-black m-r10"><i class="fa fa-file-word-o"></i></span>
                                     <strong class="text-uppercase text-black"> Download .DOC</strong>
                                 </a>
                             </div>
                             <div class="wt-icon-box-wraper left bdr-1 bdr-gray p-a15 m-b15">
-                                <a class="btn-block" href="#">
+                                <a href="#" class="btn-block">
                                     <span class="text-black m-r10"><i class="fa fa-file-powerpoint-o"></i></span>
                                     <strong class="text-uppercase text-black">Download .PPT</strong>
                                 </a>
                             </div>
                         </div>
 
+                        <!-- WHAT WE DO -->
+                        <div class="wt-nav-block m-b30">
+                            <h2 class="wt-nav-title">What we do</h2>
+                            <ul class="wt-nav wt-nav-pills">
+                                <li><a href="javascript:void(0);">Electricity</a></li>
+                                <li><a href="javascript:void(0);">Refurbishment</a></li>
+                                <li><a href="javascript:void(0);">House Security</a></li>
+                                <li><a href="javascript:void(0);">Laminate flooring</a></li>
+                                <li><a href="javascript:void(0);">General Contracting</a></li>
+                                <li><a href="javascript:void(0);">Construction Consultant</a></li>
+                            </ul>
+                        </div>
 
                         <!-- CONTACT US -->
                         <div class="widget bg-white  widget_getintuch">
-
+                            <h4 class="widget-title">Contact us</h4>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i><strong>Address</strong> Street No:4 , Robert villsan road  </li>
+                                <li><i class="fa fa-fax"></i><strong>FAX</strong>(082) 634-3456</li>
+                                <li><i class="fa fa-phone"></i><strong>phone</strong>0800-987654 (help 24/7 )</li>
+                                <li><i class="fa fa-envelope"></i><strong>email</strong>thewebmaxmail@gmail.com</li>
+                            </ul>
                         </div>
                     </div>
                     <!-- LEFT PART -->
@@ -280,43 +278,97 @@
                     <div class="col-md-9 col-sm-9 p-tb10">
                         <!-- BLOG POST CAROUSEL -->
                         <div class="section-content ">
-                            <div class="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center" >
+                            <div class="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center">
 
                                 <div class="item">
                                     <div class="aon-thum-bx">
-                                        <img alt="" src="images/ars/big-ranch/DJI_0440.jpg">
+                                        <img src="images/our-work/pic1.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="aon-thum-bx">
-                                        <img alt="" src="images/ars/colorfull-roof.jpg">
+                                        <img src="images/our-work/pic2.jpg" alt="">
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="aon-thum-bx">
-                                        <img alt="" src="images/ars/residential-roof-2.jpg">
+                                        <img src="images/our-work/pic3.jpg" alt="">
                                     </div>
                                 </div>
 
-                                <div class="item">
-                                    <div class="aon-thum-bx">
-                                        <img alt="" src="images/ars/res-ranch-front.jpg">
-                                    </div>
-                                </div>
                             </div>
                             <div class="wt-box">
                                 <h2>General Contruction</h2>
                                 <p>
-                                    ARS Construction specializes in roof repairs, replacements, and installations for
-                                    residential homes. We make sure to work quickly but precisely to ensure your roof is
-                                    in top working order. We make sure to clean up at the end of each workday and remove
-                                    any dangerous equipment that could harm you or your family.
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the .
+                                </p>
+
+                                <p>
+                                    Printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. It was popularised in the with the .
                                 </p>
                             </div>
                             <div class="wt-box">
+                                <div class="p-t30 p-b50">
+                                    <!-- TITLE START -->
+                                    <div class="section-head">
 
+                                        <h2 class="text-uppercase">What is included</h2>
+                                        <div class="wt-separator-outer">
+                                            <div class="wt-separator style-square">
+                                                <span class="separator-left bg-primary"></span>
+                                                <span class="separator-right bg-primary"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- TITLE END -->
+                                    <!-- ACCORDIAN  BACKGROUND GRAY -->
+                                    <div class="section-content p-b30">
+                                        <div class="wt-accordion acc-bg-gray" id="accordion5">
+                                            <div class="panel wt-panel">
+                                                <div class="acod-head acc-actives">
+                                                    <h6 class="acod-title text-uppercase">
+                                                        <a data-toggle="collapse" href="#collapseOne5" data-parent="#accordion5" ><i class="fa fa-globe"></i>
+                                                            Awesome Web Design
+                                                            <span class="indicator"><i class="fa fa-plus"></i></span>
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                                <div id="collapseOne5" class="acod-body collapse in">
+                                                    <div class="acod-content p-tb15">Web design lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised sheets containing Lorem Ipsum passagese.</div>
+                                                </div>
+                                            </div>
+                                            <div class="panel wt-panel">
+                                                <div class="acod-head">
+                                                    <h6 class="acod-title text-uppercase">
+                                                        <a data-toggle="collapse" href="#collapseTwo5" class="collapsed" data-parent="#accordion5" ><i class="fa fa-photo"></i>
+                                                            Different Graphic Design
+                                                            <span class="indicator"><i class="fa fa-plus"></i></span>
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                                <div id="collapseTwo5" class="acod-body collapse">
+                                                    <div class="acod-content p-tb15">Graphic design lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised sheets containing Lorem Ipsum passagese.</div>
+                                                </div>
+                                            </div>
+                                            <div class="panel wt-panel">
+                                                <div class="acod-head">
+                                                    <h6 class="acod-title text-uppercase">
+                                                        <a data-toggle="collapse"  href="#collapseThree5" class="collapsed"  data-parent="#accordion5"><i class="fa fa-cog"></i>
+                                                            Fast Developement
+                                                            <span class="indicator"><i class="fa fa-plus"></i></span>
+                                                        </a>
+                                                    </h6>
+                                                </div>
+                                                <div id="collapseThree5" class="acod-body collapse">
+                                                    <div class="acod-content p-tb15">Developement lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised sheets containing Lorem Ipsum passagese.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -332,23 +384,20 @@
 
     <!-- FOOTER START -->
     <footer class="site-footer footer-dark">
-        <div class="call-to-action-wrap call-to-action-skew bg-primary bg-no-repeat"
-             style="background-image:url(images/background/bg-4.png);">
+        <div class="call-to-action-wrap call-to-action-skew bg-primary bg-no-repeat" style="background-image:url(images/background/bg-4.png);">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-sm-8">
                         <div class="call-to-action-left p-tb20 p-r50">
-                            <h4 class="text-uppercase m-b10">Are you ready for your free roof inspection or next home
-                                improvement?</h4>
+                            <h4 class="text-uppercase m-b10">Are you ready for your free roof inspection or next home improvement?</h4>
 
                         </div>
                     </div>
 
                     <div class="col-md-3">
                         <div class="call-to-action-right p-tb30">
-                            <a class="site-button-secondry  m-r15 text-uppercase font-weight-600"
-                               href="contact-us.html">
-                                Contact us <i class="fa fa-angle-double-right"></i>
+                            <a href="contact-us.php" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
+                                Contact us  <i class="fa fa-angle-double-right"></i>
                             </a>
                         </div>
                     </div>
@@ -365,12 +414,9 @@
                         <div class="widget widget_about">
                             <h4 class="widget-title">ARS Construction</h4>
                             <div class="logo-footer clearfix p-b15">
-                                <a href="index.html"><img alt="ARS Construction Logo" height="67"
-                                                          src="images/ars/arsconstructionlogo.png" width="230"/></a>
+                                <a href="index.php"><img src="images/ars/arsconstructionlogo.png" width="230" height="67" alt="ARS Construction Logo"/></a>
                             </div>
-                            <p>ARS Construction specializes in residential and commercial roofing along with exterior
-                                and interior construction. We have been servicing the Greater St Louis area since 2001
-                                with top quality construction services
+                            <p>ARS Construction specializes in residential and commercial roofing along with exterior and interior construction. We have been servicing the Greater St Louis area since 2001 with top quality construction services
                             </p>
                         </div>
                     </div>
@@ -401,10 +447,10 @@
                         <div class="widget widget_social_inks">
                             <h4 class="widget-title">Social Links</h4>
                             <ul class="social-icons social-square social-darkest">
-                                <li><a class="fa fa-facebook" href="https://www.facebook.com/AdvancedRoofs"></a></li>
-                                <li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-youtube" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
+                                <li><a href="https://www.facebook.com/AdvancedRoofs" class="fa fa-facebook"></a></li>
+                                <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
+                                <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
+                                <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
                             </ul>
                         </div>
                     </div>
@@ -458,14 +504,13 @@
             <div class="container p-t30">
                 <div class="row">
                     <div class="wt-footer-bot-left">
-                        <span class="copyrights-text">© 2020 ARS Construction. All Rights Reserved. Designed By <a
-                                about="_blank" href="https://codestlouis.com">Code St Louis</a></span>
+                        <span class="copyrights-text">© 2020 ARS Construction. All Rights Reserved. Designed By <a href="https://codestlouis.com" about="_blank">Code St Louis</a></span>
                     </div>
                     <div class="wt-footer-bot-right">
                         <ul class="copyrights-nav pull-right">
-                            <li><a href="javascript:void(0);">Terms & Condition</a></li>
+                            <li><a href="javascript:void(0);">Terms  & Condition</a></li>
                             <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
+                            <li><a href="contact-us.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -479,12 +524,12 @@
     <button class="scroltop"><span class=" iconmoon-house relative" id="btn-vibrate"></span>Top</button>
 
     <!-- MODAL  LOGIN -->
-    <div class="modal fade " id="Login-form" role="dialog">
+    <div id="Login-form" class="modal fade " role="dialog">
         <div class="modal-dialog modal-sm">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header bg-primary">
-                    <button class="close" data-dismiss="modal" type="button">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title text-white">Login Your Account</h4>
                 </div>
                 <div class="modal-body p-a30">
@@ -501,25 +546,24 @@
                                 <input class="form-control" placeholder="Enter email" type="email">
                             </div>
                         </div>
-                        <button class="site-button-secondry text-uppercase btn-block m-b10" type="button">Submit
-                        </button>
-                        <span class="font-12">Don't have an account? <a class="text-primary" href="javascript:">Register Here</a></span>
+                        <button type="button" class="site-button-secondry text-uppercase btn-block m-b10">Submit</button>
+                        <span class="font-12">Don't have an account? <a href="javascript:;" class="text-primary">Register Here</a></span>
                     </form>
                 </div>
                 <div class="modal-footer text-center">
-                    <div class="text-center"><img alt="" src="images/logo-dark.png"></div>
+                    <div class="text-center"><img src="images/logo-dark.png" alt=""></div>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- MODAL  REGISTER -->
-    <div class="modal fade " id="Register-form" role="dialog">
+    <div id="Register-form" class="modal fade " role="dialog">
         <div class="modal-dialog modal-sm">
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header bg-primary">
-                    <button class="close" data-dismiss="modal" type="button">&times;</button>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title text-white">Register here</h4>
                 </div>
                 <div class="modal-body p-a30">
@@ -542,14 +586,12 @@
                                 <input class="form-control" placeholder="Enter Password" type="email">
                             </div>
                         </div>
-                        <button class="site-button-secondry text-uppercase btn-block m-b10" type="button">Submit
-                        </button>
-                        <span class="font-12">Already Have an Account? <a class="text-primary"
-                                                                          href="javascript:">Login</a></span>
+                        <button type="button" class="site-button-secondry text-uppercase btn-block m-b10">Submit</button>
+                        <span class="font-12">Already Have an Account? <a href="javascript:;" class="text-primary">Login</a></span>
                     </form>
                 </div>
                 <div class="modal-footer text-center">
-                    <div class="text-center"><img alt="" src="images/logo-dark.png"></div>
+                    <div class="text-center"><img src="images/logo-dark.png" alt=""></div>
                 </div>
             </div>
         </div>
@@ -559,55 +601,47 @@
 <!-- The core Firebase JS SDK is always required and must be listed first -->
 
 <!-- JAVASCRIPT  FILES ========================================= -->
-<script src="js/jquery-1.12.4.min.js" type="text/javascript"></script><!-- JQUERY.MIN JS -->
-<script src="js/bootstrap.min.js" type="text/javascript"></script><!-- BOOTSTRAP.MIN JS -->
+<script type="text/javascript"  src="js/jquery-1.12.4.min.js"></script><!-- JQUERY.MIN JS -->
+<script type="text/javascript"  src="js/bootstrap.min.js"></script><!-- BOOTSTRAP.MIN JS -->
 
-<script src="js/bootstrap-select.min.js" type="text/javascript"></script><!-- FORM JS -->
-<script src="js/jquery.bootstrap-touchspin.min.js" type="text/javascript"></script><!-- FORM JS -->
+<script type="text/javascript"  src="js/bootstrap-select.min.js"></script><!-- FORM JS -->
+<script type="text/javascript"  src="js/jquery.bootstrap-touchspin.min.js"></script><!-- FORM JS -->
 
-<script src="js/magnific-popup.min.js" type="text/javascript"></script><!-- MAGNIFIC-POPUP JS -->
+<script type="text/javascript"  src="js/magnific-popup.min.js"></script><!-- MAGNIFIC-POPUP JS -->
 
-<script src="js/waypoints.min.js" type="text/javascript"></script><!-- WAYPOINTS JS -->
-<script src="js/counterup.min.js" type="text/javascript"></script><!--COUNTERUP JS -->
-<script src="js/waypoints-sticky.min.js" type="text/javascript"></script><!-- COUNTERUP JS -->
+<script type="text/javascript"  src="js/waypoints.min.js"></script><!-- WAYPOINTS JS -->
+<script type="text/javascript"  src="js/counterup.min.js"></script><!--COUNTERUP JS -->
+<script type="text/javascript"  src="js/waypoints-sticky.min.js"></script><!-- COUNTERUP JS -->
 
-<script src="js/isotope.pkgd.min.js" type="text/javascript"></script><!-- MASONRY  -->
+<script type="text/javascript" src="js/isotope.pkgd.min.js"></script><!-- MASONRY  -->
 
-<script src="js/owl.carousel.min.js" type="text/javascript"></script><!-- OWL  SLIDER  -->
+<script type="text/javascript"  src="js/owl.carousel.min.js"></script><!-- OWL  SLIDER  -->
 
-<script src="js/stellar.min.js" type="text/javascript"></script><!-- PARALLAX BG IMAGE   -->
-<script src="js/scrolla.min.js" type="text/javascript"></script><!-- ON SCROLL CONTENT ANIMTE   -->
+<script type="text/javascript"  src="js/stellar.min.js"></script><!-- PARALLAX BG IMAGE   -->
+<script type="text/javascript"  src="js/scrolla.min.js"></script><!-- ON SCROLL CONTENT ANIMTE   -->
 
-<script src="js/custom.js" type="text/javascript"></script><!-- CUSTOM FUCTIONS  -->
-<script src="js/shortcode.js" type="text/javascript"></script><!-- SHORTCODE FUCTIONS  sw-->
+<script type="text/javascript"  src="js/custom.js"></script><!-- CUSTOM FUCTIONS  -->
+<script type="text/javascript"  src="js/shortcode.js"></script><!-- SHORTCODE FUCTIONS  sw-->
+
 
 
 <!-- REVOLUTION JS FILES -->
-<script src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
 
 <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"
-        type="text/javascript"></script>
-<script src="plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"
-        type="text/javascript"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="plugins/revolution/revolution/js/extensions/revolution.extension.video.min.js"></script>
 
 <!-- REVOLUTION SLIDER SCRIPT FILES -->
-<script src="js/rev-script-4.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/rev-script-4.js"></script>
 
 <!-- LOADING AREA START ===== -->
 <div class="loading-area">

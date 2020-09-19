@@ -15,40 +15,40 @@
                     <div class="header-nav navbar-collapse collapse ">
                         <ul class=" nav navbar-nav">
                             <li class="active">
-                                <a href="index.html">Home</a>
+                                <a href="../index.php">Home</a>
                             </li>
                             <li>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="../gallery.php">Gallery</a>
                             </li>
                             <li>
-                                <a href="residential.html">Residential</a>
+                                <a href="../residential.php">Residential</a>
                             </li>
                             <li class="active">
                                 <a href="javascript:">Commercial<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="commercial.html">Glendale Chrysler</a></li>
-                                    <li><a href="salvation-army.html">Salvation Army</a></li>
+                                    <li><a href="../commercial.php">Glendale Chrysler</a></li>
+                                    <li><a href="../salvation-army.php">Salvation Army</a></li>
                                 </ul>
                             </li>
                             <li class="active">
                                 <a href="javascript:">Home Improvement<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="exterior.html">Exterior</a></li>
-                                    <li><a href="interior.html">Interior</a></li>
+                                    <li><a href="../exterior.php">Exterior</a></li>
+                                    <li><a href="../interior.php">Interior</a></li>
                                 </ul>
                             </li>
                             <li class="active">
                                 <a href="javascript:">We Sponsor<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="miracles-n-progress.html">Miracles N' Progress</a></li>
+                                    <li><a href="../miracles-n-progress.php">Miracles N' Progress</a></li>
 
                                 </ul>
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="../about.php">About Us</a>
                             </li>
                             <li>
-                                <a href="contact-us.html">Contact Us</a>
+                                <a href="../contact-us.php">Contact Us</a>
                             </li>
                         </ul>
                     </div>

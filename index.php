@@ -444,7 +444,16 @@ $ogMetaDescription='Providing St Louis with automation solutions to increase pro
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>No Job is Too Big or Too Small</h1>
+                        <div class="section-head text-center">
+                            <h2 class="text-uppercase">No Job Too Big or Too Small</h2>
+                            <div class="wt-separator-outer">
+                                <div class="wt-separator style-square">
+                                    <span class="separator-left bg-primary"></span>
+                                    <span class="separator-right bg-primary"></span>
+                                </div>
+                            </div>
+                        </div>
+
                         <p>Our motivated team of experienced contractors are ready to take on any construction tasks. As mention in the Better Business Burro,
                         reflected in out 5 start rating review on Google, ARS strives to meet customer demand with the best quality of craftsman ship.
                         We have tools to give online estimates as well as on site estimates. ARS offers Free roof inspections and if we find issues our team is experienced
@@ -801,8 +810,8 @@ $ogMetaDescription='Providing St Louis with automation solutions to increase pro
         <!-- COMPANY DETAIL SECTION End -->
     </div>
     <!-- CONTENT END -->
-
     <!-- FOOTER START -->
+        <footer class="site-footer footer-dark">
      <?php include_once ('includes/footer.php'); ?>
         <!-- FOOTER COPYRIGHT -->
          <?php include_once ('includes/sub-footer.php'); ?>

@@ -14,7 +14,7 @@
                     <div class="col-md-3">
                         <div class="call-to-action-right p-tb30">
                             <a class="site-button-secondry  m-r15 text-uppercase font-weight-600"
-                               href="../contact-us.html">
+                               href="../contact-us.php">
                                 Contact us <i class="fa fa-angle-double-right"></i>
                             </a>
                         </div>
@@ -32,7 +32,7 @@
                         <div class="widget widget_about">
                             <h4 class="widget-title">ARS Construction</h4>
                             <div class="logo-footer clearfix p-b15">
-                                <a href="../index.html"><img alt="ARS Construction Logo"
+                                <a href="../index.php"><img alt="ARS Construction Logo"
                                                           src="../images/ars/arsconstructionlogo.png"></a>
                             </div>
                             <p>ARS Construction specializes in residential and commercial roofing along with exterior
@@ -48,10 +48,11 @@
                         <div class="widget widget_services">
                             <h4 class="widget-title">Useful links</h4>
                             <ul>
-                                <li><a href="../residential.html">Residential</a></li>
-                                <li><a href="../commercial.html">Commercial</a></li>
-                                <li><a href="../about.html">About Us</a></li>
-                                <li><a href="../contact-us.html">Contact Us</a></li>
+                                <li><a href="../gallery.php.php">Gallery</a></li>
+                                <li><a href="../residential.php">Residential</a></li>
+                                <li><a href="../commercial.php">Commercial</a></li>
+                                <li><a href="../about.php">About Us</a></li>
+                                <li><a href="../contact-us.php">Contact Us</a></li>
                             </ul>
                         </div>
 
@@ -96,7 +97,7 @@
                             </div>
                             <div class="icon-content">
                                 <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                                <p class="m-b0"><a href="tel:+18444457663">(844) 445-ROOF</a></p>
+                                <p class="m-b0"><a target="_blank" href="tel:+18444457663">(844) 445-ROOF</a></p>
 
                             </div>
                         </div>
@@ -109,7 +110,7 @@
                             </div>
                             <div class="icon-content">
                                 <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                <p class="m-b0"><a href="mailto:ARSOffice@advancedroofsys.com?">ARSOffice@advancedroofsys.com</a></p>
+                                <p class="m-b0"><a target="_blank" href="mailto:ARSOffice@advancedroofsys.com?">ARSOffice@advancedroofsys.com</a></p>
 
                             </div>
                         </div>

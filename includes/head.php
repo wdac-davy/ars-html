@@ -4,7 +4,7 @@
     <meta content="" name="author"/>
     <meta content="" name="robots"/>
     <meta content="" name="description"/>
-    <link href="/index.html" rel="canonical">
+    <link href="/index.php" rel="canonical">
     <!-- FAVICONS ICON -->
     <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
@@ -68,11 +68,9 @@
 
     <script cid="2924" src="https://calculator.roofr.com/roofr-calculator.js"></script>
 
-
-
-   // TODO fix this structured data
-
-    <!-- <script type="application/ld+json">
+    <!--
+    TODO fix this structured data
+    <script type="application/ld+json">
         {
          "@context": "http://schema.org",
          "@type": "NewsArticle",

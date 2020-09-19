@@ -1,9 +1,9 @@
   <div class="main-bar header-middle bg-white">
             <div class="container">
                 <div class="logo-header">
-                    <a href="index.html">
-                        <img alt="ARS Construction" class="desktop-logo" src="images/EPSLogo-SM.PNG"/>
-                      <img alt="ARS Construction-mobile" class="mobile-logo" src="images/arsconstructionlogo-triangle.png"/>
+                    <a href="index.php">
+                        <img alt="ARS Construction" class="desktop-logo" src="../images/EPSLogo-SM.PNG"/>
+                      <img alt="ARS Construction-mobile" class="mobile-logo text-center" width="100%" src="../images/EPSLogo-SM.PNG"/>
                     </a>
                 </div>
                 <div class="header-info">
