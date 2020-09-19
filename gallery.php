@@ -1,68 +1,18 @@
+<?php
+$Page='Home';
+$Title='Code St Louis';
+$metaDescription='Code St Louis is taking a different approach to scale efficient development teams to support the rapid technology growth in St Louis. ';
+$metaImage='/assets/images/meta-codestl-io.PNG';
+$ogMetaDescription='Providing St Louis with automation solutions to increase productivity in the work force'
+?>
 <!DOCTYPE html>
 <!--  LATEST PROJECT SECTION START -->
 
 <!-- LATEST PROJECT SECTION END -->
 <html lang="en">
 <head>
+    <?php include_once ('includes/head.php'); ?>
 
-    <!-- META -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <meta name="robots" content="" />
-    <meta name="description" content="" />
-
-    <!-- FAVICONS ICON -->
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
-
-    <!-- PAGE TITLE HERE -->
-    <title>ARS Construction | ARS Gallery</title>
-
-    <!-- MOBILE SPECIFIC -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- [if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif] -->
-
-    <!-- BOOTSTRAP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <!-- FONTAWESOME STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/fontawesome/css/font-awesome.min.css" />
-    <!-- FLATICON STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/flaticon.min.css">
-    <!-- ANIMATE STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
-    <!-- OWL CAROUSEL STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
-    <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
-    <!-- MAGNIFIC POPUP STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/magnific-popup.min.css">
-    <!-- LOADER STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/loader.min.css">
-    <!-- MAIN STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- THEME COLOR CHANGE STYLE SHEET -->
-    <link rel="stylesheet" class="skin" type="text/css" href="css/skin/skin-12.css">
-    <!-- CUSTOM  STYLE SHEET -->
-    <link rel="stylesheet" type="text/css" href="css/custom.css">
-
-
-    <!-- REVOLUTION SLIDER CSS -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/settings.css">
-    <!-- REVOLUTION NAVIGATION STYLE -->
-    <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/navigation.css">
-
-    <!-- GOOGLE FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i&amp;subset=latin-ext" rel="stylesheet">
-    <!-- estimator js -->
-    <script src="https://calculator.roofr.com/roofr-calculator.js" cid="2924"></script>
 </head>
 
 
@@ -72,125 +22,10 @@
         	
         <!-- HEADER START -->
         <header class="site-header header-style-6">
+            <?php include_once ('includes/header.php'); ?>
+            <?php include_once ('includes/sub-header.php'); ?>
+            <?php include_once ('includes/nav.php'); ?>
 
-            <div class="top-bar bg-primary">
-                <div class="container">
-                    <div class="row">
-                        <div class="clearfix">
-                            <div class="wt-topbar-left">
-                                <ul class="list-unstyled e-p-bx pull-left">
-                                    <li><i class="fa fa-envelope"></i>ARSOffice@advancedroofsys.com</li>
-                                    <li><i class="fa fa-phone"></i>(844) 445-ROOF</li>
-                                </ul>
-                            </div>
-
-                            <!--<div class="wt-topbar-right">
-                                <ul class="list-unstyled e-p-bx pull-right">
-                                    <li><a href="#" data-toggle="modal" data-target="#Login-form"><i class="fa fa-user"></i>Login</a></li>
-                                    <li><a href="#" data-toggle="modal" data-target="#Register-form"><i class="fa fa-sign-in"></i>Register</a></li>
-                                </ul>
-                            </div>-->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Search Link -->
-
-            <div class="main-bar header-middle bg-white">
-                <div class="container">
-                    <div class="logo-header">
-                        <a href="index.html">
-                            <img src="images/ARS LOGO-header.png" width="216" height="37" alt="ARS Construction" />
-                        </a>
-                    </div>
-                    <div class="header-info">
-                        <ul>
-                            <li>
-                                <div>
-                                    <div class="icon-sm">
-                                        <span class="icon-cell  text-primary"><i class="flaticon-placeholder"></i></span>
-                                    </div>
-                                    <div class="icon-content">
-                                        <strong>Our Location </strong>
-                                        <span>16943 Manchester Rd,<br> Wildwood, MO 63040</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li>
-                                <div>
-                                    <div class="icon-sm">
-                                        <span class="icon-cell  text-primary"><i class="flaticon-smartphone"></i></span>
-                                    </div>
-                                    <div class="icon-content">
-                                        <strong>Phone Number</strong>
-                                        <span>(844) 455-ROOF</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="btn-col-last">
-
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="sticky-header main-bar-wraper">
-                <div class="main-bar header-botton nav-bg-secondry">
-                    <div class="container">
-                        <!-- NAV Toggle Button -->
-                        <button data-target=".header-nav" data-toggle="collapse" type="button" class="navbar-toggle collapsed">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <!-- ETRA Nav -->
-
-                        <!-- MAIN Nav -->
-                        <div class="header-nav navbar-collapse collapse ">
-                            <ul class=" nav navbar-nav">
-                                <li class="active">
-                                    <a href="index.html">Home</a>
-                                </li>
-                                <li>
-                                    <a href="gallery.html">Gallery</a>
-                                </li>
-                                <li>
-                                    <a href="residential.html">Residential</a>
-                                </li>
-                                <li class="active">
-                                    <a href="javascript:">Commercial<i class="fa fa-chevron-down"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="commercial.html">Glendale Chrysler Jeep Dodge Ram</a></li>
-                                        <li><a href="salvation-army.html">Salvation Army</a></li>
-                                    </ul>
-                                </li>
-                                <li class="active">
-                                    <a href="javascript:;">Home Improvement<i class="fa fa-chevron-down"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="exterior.html">Exterior</a></li>
-                                        <li><a href="interior.html">Interior</a></li>
-                                    </ul>
-                                </li>
-                                <li class="active">
-                                    <a href="javascript:">We Sponsor<i class="fa fa-chevron-down"></i></a>
-                                    <ul class="sub-menu">
-                                        <li><a href="miracles-n-progress.html">Miracles N' Progress</a></li>
-
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="about.html">About Us</a>
-                                </li>
-                                <li>
-                                    <a href="contact-us.html">Contact Us</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
         <!-- HEADER END -->
         
@@ -481,7 +316,7 @@
                     </div>
                     <!-- GALLERY CONTENT END -->
                     
-                    <!-- PAGINATION START -->
+                    <!-- PAGINATION START
                     <div class="pagination-bx  clearfix ">
                         <ul class = "custom-pagination pagination">
                            <li><a href = "#">&laquo;</a></li>
@@ -492,7 +327,7 @@
                            <li><a href = "#">5</a></li>
                            <li><a href = "#">&raquo;</a></li>
                         </ul>
-                    </div>
+                    </div>-->
                     <!-- PAGINATION END -->                    
                     
                 </div>
@@ -504,138 +339,9 @@
 
         <!-- FOOTER START -->
         <footer class="site-footer footer-dark">
-            <div class="call-to-action-wrap call-to-action-skew bg-primary bg-no-repeat" style="background-image:url(images/background/bg-4.png);">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-sm-8">
-                            <div class="call-to-action-left p-tb20 p-r50">
-                                <h4 class="text-uppercase m-b10">Are you ready for your free roof inspection or next home improvement?</h4>
-
-                            </div>
-                        </div>
-
-                        <div class="col-md-3">
-                            <div class="call-to-action-right p-tb30">
-                                <a href="contact-us.html" class="site-button-secondry  m-r15 text-uppercase font-weight-600">
-                                    Contact us  <i class="fa fa-angle-double-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- FOOTER BLOCKES START -->
-            <div class="footer-top overlay-wraper">
-                <div class="overlay-main"></div>
-                <div class="container">
-                    <div class="row">
-                        <!-- ABOUT COMPANY -->
-                        <div class="col-md-4 col-sm-6">
-                            <div class="widget widget_about">
-                                <h4 class="widget-title">ARS Construction</h4>
-                                <div class="logo-footer clearfix p-b15">
-                                    <a href="index.html"><img src="images/ars/arsconstructionlogo.png" width="230" height="67" alt="ARS Construction Logo"/></a>
-                                </div>
-                                <p>ARS Construction specializes in residential and commercial roofing along with exterior and interior construction. We have been servicing the Greater St Louis area since 2001 with top quality construction services
-                                </p>
-                            </div>
-                        </div>
-                        <!-- RESENT POST -->
-
-                        <!-- USEFUL LINKS -->
-                        <div class="col-md-4 col-sm-6">
-                            <div class="widget widget_services">
-                                <h4 class="widget-title">Useful links</h4>
-                                <ul>
-                                    <li><a href="residential.html">Residential</a></li>
-                                    <li><a href="commercial.html">Commercial</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="contact-us.html">Contact Us</a></li>
-                                </ul>
-                            </div>
-
-                        </div>
-                        <!-- NEWSLETTER -->
-                        <div class="col-md-4 col-sm-6">
-                            <div class="widget widget_newsletter">
-                                <h4 class="widget-title">Get Instant online quote</h4>
-                                <div class="newsletter-bx">
-                                    <div class="roofr-calculator"></div>
-                                </div>
-                            </div>
-                            <!-- SOCIAL LINKS -->
-                            <div class="widget widget_social_inks">
-                                <h4 class="widget-title">Social Links</h4>
-                                <ul class="social-icons social-square social-darkest">
-                                    <li><a href="https://www.facebook.com/AdvancedRoofs" class="fa fa-facebook"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-linkedin"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-youtube"></a></li>
-                                    <li><a href="javascript:void(0);" class="fa fa-instagram"></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                        <div class="col-md-4 col-sm-6  p-tb20">
-                            <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                                <div class="icon-md text-primary">
-                                    <span class="iconmoon-travel"></span>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
-                                    <p>16943 Manchester Rd, Wildwood, MO 63040-1209</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6  p-tb20 ">
-                            <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix ">
-                                <div class="icon-md text-primary">
-                                    <span class="iconmoon-smartphone-1"></span>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                                    <p class="m-b0">(844) 455 ROOF</p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4 col-sm-6 p-tb20">
-                            <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                                <div class="icon-md text-primary">
-                                    <span class="iconmoon-email"></span>
-                                </div>
-                                <div class="icon-content">
-                                    <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                    <p class="m-b0">ARSOffice@advancedroofsys.com</p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
+            <?php include_once ('includes/footer.php'); ?>
             <!-- FOOTER COPYRIGHT -->
-            <div class="footer-bottom overlay-wraper">
-                <div class="overlay-main"></div>
-                <div class="constrot-strip"></div>
-                <div class="container p-t30">
-                    <div class="row">
-                        <div class="wt-footer-bot-left">
-                            <span class="copyrights-text">© 2020 ARS Construction. All Rights Reserved. Designed By <a href="https://codestlouis.com" about="_blank">Code St Louis</a></span>
-                        </div>
-                        <div class="wt-footer-bot-right">
-                            <ul class="copyrights-nav pull-right">
-                                <li><a href="javascript:void(0);">Terms  & Condition</a></li>
-                                <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php include_once ('includes/sub-footer.php'); ?>
         </footer>
         <!-- FOOTER END -->
 

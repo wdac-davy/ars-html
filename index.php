@@ -1,116 +1,18 @@
+<?php
+$Page='Home';
+$Title='Code St Louis';
+$metaDescription='Code St Louis is taking a different approach to scale efficient development teams to support the rapid technology growth in St Louis. ';
+$metaImage='/assets/images/meta-codestl-io.PNG';
+$ogMetaDescription='Providing St Louis with automation solutions to increase productivity in the work force'
+?>
+
 <!DOCTYPE html>
 
 <html lang="en">
 
 <head>
+     <?php include_once ('includes/head.php'); ?>
 
-    <!-- META -->
-    <meta charset="utf-8"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="" name="keywords"/>
-    <meta content="" name="author"/>
-    <meta content="" name="robots"/>
-    <meta content="" name="description"/>
-    <link href="/index.html" rel="canonical">
-    <!-- FAVICONS ICON -->
-    <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
-    <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
-
-    <!-- PAGE TITLE HERE -->
-    <title>ARS Construction | Commercial Roofing St Louis</title>
-
-    <!-- MOBILE SPECIFIC -->
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-
-    <!-- [if lt IE 9]>
-    <script src="js/html5shiv.min.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif] -->
-
-    <!-- BOOTSTRAP STYLE SHEET
-        TODO compile css into sass
-        npm install -g sass
-        run command
-        sass source/stylesheets/index.scss build/stylesheets/index.css
-        to compile
-    -->
-
-
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="css/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-    <!-- FLATICON STYLE SHEET -->
-    <link href="css/flaticon.min.css" rel="stylesheet" type="text/css">
-    <!-- ANIMATE STYLE SHEET -->
-    <link href="css/animate.min.css" rel="stylesheet" type="text/css">
-    <!-- OWL CAROUSEL STYLE SHEET -->
-    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css">
-    <!-- BOOTSTRAP SELECT BOX STYLE SHEET -->
-    <link href="css/bootstrap-select.min.css" rel="stylesheet" type="text/css">
-    <!-- MAGNIFIC POPUP STYLE SHEET -->
-    <link href="css/magnific-popup.min.css" rel="stylesheet" type="text/css">
-    <!-- LOADER STYLE SHEET -->
-    <link href="css/loader.min.css" rel="stylesheet" type="text/css">
-    <!-- MAIN STYLE SHEET -->
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <link href="css/styles-embed-2019-06-10.css" rel="stylesheet" type="text/css">
-    <!-- THEME COLOR CHANGE STYLE SHEET -->
-    <link class="skin" href="css/skin/skin-12.css" rel="stylesheet" type="text/css">
-    <!-- CUSTOM  STYLE SHEET -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
-
-
-    <!-- REVOLUTION SLIDER CSS -->
-    <link href="plugins/revolution/revolution/css/settings.css" rel="stylesheet" type="text/css">
-    <!-- REVOLUTION NAVIGATION STYLE -->
-    <link href="plugins/revolution/revolution/css/navigation.css" rel="stylesheet" type="text/css">
-
-
-    <!-- GOOGLE FONTS -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,300italic,400italic,500,500italic,700,700italic,900italic,900'
-          rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,800,700italic'
-          rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Crete+Round:400,400i&amp;subset=latin-ext" rel="stylesheet">
-    <!-- estimator js -->
-
-    <script cid="2924" src="https://calculator.roofr.com/roofr-calculator.js"></script>
-
-
-    <!-- TODO fix this structured data
-    <script type="application/ld+json">
-        {
-         "@context": "http://schema.org",
-         "@type": "NewsArticle",
-         "mainEntityOfPage":{
-           "@type":"WebPage",
-           "@id":"https://example.com/my-article.html"
-         },
-         "headline": "My First AMP Article",
-         "image": {
-           "@type": "ImageObject",
-           "url": "https://example.com/article_thumbnail1.jpg",
-           "height": 800,
-           "width": 800
-         },
-         "datePublished": "2015-02-05T08:00:00+08:00",
-         "dateModified": "2015-02-05T09:20:00+08:00",
-         "author": {
-           "@type": "Person",
-           "name": "John Doe"
-         },
-         "publisher": {
-           "@type": "Organization",
-           "name": "⚡ AMP Times",
-           "logo": {
-             "@type": "ImageObject",
-             "url": "https://example.com/amptimes_logo.jpg",
-             "width": 600,
-             "height": 60
-           }
-         },
-         "description": "My first experience in an AMPlified world"
-        }
-</script>-->
 </head>
 
 <body>
@@ -119,126 +21,10 @@
 
     <!-- HEADER START -->
     <header class="site-header header-style-6">
+        <?php include_once ('includes/header.php'); ?>
+        <?php include_once ('includes/sub-header.php'); ?>
+        <?php include_once ('includes/nav.php'); ?>
 
-        <div class="top-bar bg-primary">
-            <div class="container">
-                <div class="row">
-                    <div class="clearfix">
-                        <div class="wt-topbar-left">
-                            <ul class="list-unstyled e-p-bx pull-left">
-                                <li><i class="fa fa-envelope"></i>ARSOffice@advancedroofsys.com</li>
-                                <li><i class="fa fa-phone"></i>(844) 445-ROOF</li>
-                            </ul>
-                        </div>
-
-                        <!--<div class="wt-topbar-right">
-                            <ul class="list-unstyled e-p-bx pull-right">
-                                <li><a href="#" data-toggle="modal" data-target="#Login-form"><i class="fa fa-user"></i>Login</a></li>
-                                <li><a href="#" data-toggle="modal" data-target="#Register-form"><i class="fa fa-sign-in"></i>Register</a></li>
-                            </ul>
-                        </div>-->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Search Link -->
-
-        <div class="main-bar header-middle bg-white">
-            <div class="container">
-                <div class="logo-header">
-                    <a href="index.html">
-                        <img alt="ARS Construction" src="images/EPSLogo-SM.PNG"/>
-                    </a>
-                </div>
-                <div class="header-info">
-                    <ul>
-                        <li>
-                            <div>
-                                <div class="icon-sm">
-                                    <span class="icon-cell  text-primary"><i class="flaticon-placeholder"></i></span>
-                                </div>
-                                <div class="icon-content">
-                                    <strong>Our Location </strong>
-                                    <span>16943 Manchester Rd,<br> Wildwood, MO 63040</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div>
-                                <div class="icon-sm">
-                                    <span class="icon-cell  text-primary"><i class="flaticon-smartphone"></i></span>
-                                </div>
-                                <div class="icon-content">
-                                    <strong>Phone Number</strong>
-                                    <span>(844) 455-ROOF</span>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="btn-col-last">
-
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="sticky-header main-bar-wraper">
-            <div class="main-bar header-botton nav-bg-secondry">
-                <div class="container">
-                    <!-- NAV Toggle Button -->
-                    <button class="navbar-toggle collapsed" data-target=".header-nav" data-toggle="collapse"
-                            type="button">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <!-- ETRA Nav -->
-
-                    <!-- MAIN Nav -->
-                    <div class="header-nav navbar-collapse collapse ">
-                        <ul class=" nav navbar-nav">
-                            <li class="active">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="gallery.html">Gallery</a>
-                            </li>
-                            <li>
-                                <a href="residential.html">Residential</a>
-                            </li>
-                            <li class="active">
-                                <a href="javascript:">Commercial<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="commercial.html">Glendale Chrysler</a></li>
-                                    <li><a href="salvation-army.html">Salvation Army</a></li>
-                                </ul>
-                            </li>
-                            <li class="active">
-                                <a href="javascript:">Home Improvement<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="exterior.html">Exterior</a></li>
-                                    <li><a href="interior.html">Interior</a></li>
-                                </ul>
-                            </li>
-                            <li class="active">
-                                <a href="javascript:">We Sponsor<i class="fa fa-chevron-down"></i></a>
-                                <ul class="sub-menu">
-                                    <li><a href="miracles-n-progress.html">Miracles N' Progress</a></li>
-
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="about.html">About Us</a>
-                            </li>
-                            <li>
-                                <a href="contact-us.html">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
     </header>
     <!-- HEADER END -->
 
@@ -262,9 +48,8 @@
                                     data-param10="" data-param2=""
                                     data-param3="" data-param4="" data-param5="" data-param6=""
                                     data-param7="" data-param8="" data-param9="" data-rotate="0"
-                                    data-saveperformance="off"
-                                    data-slotamount="default" data-thumb="media/images/construct-video1.jpg"
-                                    data-title="Creative" data-transition="fadethroughdark">
+                                    data-saveperformance="off">
+
 
                                     <!-- MAIN IMAGE -->
                                     <img alt="St Louis Roofing and Construction" class="rev-slidebg" data-bgfit="cover"
@@ -292,7 +77,7 @@
                                          data-whitespace="nowrap"
                                          data-width="full"
                                          data-x="['center','center','center','center']"
-                                         data-y="['middle','middle','middle','middle']"
+                                         data-y="['middle','middle','middle','top']"
                                          id="slide-100-layer-1"
 
                                          style="z-index: 12;background-color:rgba(0, 0, 0, 0.4);border-color:rgba(0, 0, 0, 0);border-width:0px;">
@@ -313,12 +98,12 @@
 
                                     <!-- LAYER NR. 3 [ for title ] -->
                                     <div class="tp-caption  tp-resizeme"
-                                         data-fontsize="['60','60','40','24']"
+                                         data-fontsize="['60','60','60','60']"
                                          data-frames='[
                                     {"from":"y:100px(R);opacity:0;","speed":2000,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},
                                     {"delay":"wait","speed":1000,"to":"y:-50px;opacity:0;","ease":"Power2.easeInOut"}
                                     ]' data-height="none"
-                                         data-hoffset="['250','175','125','75']" data-lineheight="['70','70','70','60']"
+                                         data-hoffset="['250','175','125','125']" data-lineheight="['70','70','70','60']"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
                                          data-paddingright="[0,0,0,0]"
@@ -328,7 +113,7 @@
                                          data-textAlign="['center','center','center','center']"
                                          data-type="text"
 
-                                         data-voffset="['250','250','250','250']"
+                                         data-voffset="['250','250','200','100']"
 
                                          data-whitespace="nowrap"
                                          data-width="none"
@@ -342,18 +127,18 @@
                                     color: rgba(255, 255, 255, 1.00);
                                     border-width:0px;">
                                     <span style="font-family:'Roboto' ; text-align: right !important;">
-                                        <span class="text-primary text-uppercase">Advanced</span>
+                                        <span class="text-primary text-uppercase ">Advanced</span>
                                     </span>
                                     </div>
 
                                     <!-- LAYER NR. 4 [ for title ] -->
                                     <div class="tp-caption RotatingWords-TitleWhite   tp-resizeme  tounblur"
-                                         data-fontsize="['60','60','40','24']"
+                                         data-fontsize="['60','60','60','60']"
                                          data-frames='[
                                     {"delay":2000,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},
                                     {"delay":"+1200","split":"chars","splitdelay":0.03,"speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;","ease":"Power3.easeIn"}
                                     ]' data-height="none"
-                                         data-hoffset="['570','500','350','220']"
+                                         data-hoffset="['570','500','300','175']"
                                          data-lineheight="['70','70','70','60']"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
@@ -363,7 +148,7 @@
                                          data-textAlign="['left','left','left','left']"
                                          data-type="text"
 
-                                         data-voffset="['250','250','250','250']"
+                                         data-voffset="['250','250','250','185']"
 
                                          data-whitespace="nowrap"
                                          data-width="none"
@@ -381,12 +166,12 @@
 
                                     <!-- LAYER NR. 5 [ for title ] -->
                                     <div class="tp-caption RotatingWords-TitleWhite   tp-resizeme  tounblur"
-                                         data-fontsize="['60','60','40','24']"
+                                         data-fontsize="['60','60','60','60']"
                                          data-frames='[
                                     {"delay":5000,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power3.easeOut"},
                                     {"delay":"+1000","split":"chars","splitdelay":0.03,"speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;","ease":"Power3.easeIn"}
                                     ]' data-height="none"
-                                         data-hoffset="['570','500','350','220']"
+                                         data-hoffset="['570','500','300','175']"
                                          data-lineheight="['70','70','70','60']"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
@@ -396,7 +181,7 @@
                                          data-textAlign="['left','left','left','left']"
                                          data-type="text"
 
-                                         data-voffset="['250','250','250','250']"
+                                         data-voffset="['250','250','250','185']"
 
                                          data-whitespace="nowrap"
                                          data-width="none"
@@ -414,12 +199,12 @@
 
                                     <!-- LAYER NR. 6 [ for title ] -->
                                     <div class="tp-caption RotatingWords-TitleWhite   tp-resizeme  tounblur"
-                                         data-fontsize="['60','60','40','24']"
+                                         data-fontsize="['60','60','60','60']"
                                          data-frames='[
                                     {"delay":8000,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},
                                     {"delay":"+1200","split":"chars","splitdelay":0.03,"speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;","ease":"Power3.easeIn"}
                                     ]' data-height="none"
-                                         data-hoffset="['570','500','350','220']"
+                                         data-hoffset="['570','500','300','175']"
                                          data-lineheight="['70','70','70','60']"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
@@ -429,7 +214,7 @@
                                          data-textAlign="['left','left','left','left']"
                                          data-type="text"
 
-                                         data-voffset="['250','250','250','250']"
+                                         data-voffset="['250','250','250','185']"
 
                                          data-whitespace="nowrap"
                                          data-width="none"
@@ -442,17 +227,17 @@
                                     font-weight: 700;
                                     color: rgba(255, 255, 255, 1.00);
                                     border-width:0px;">
-                                        <span class="text-uppercase" style="font-family:'Roboto' ;">Commercial & Residential</span>
+                                        <span class="text-uppercase" style="font-family:'Roboto' ;">Commercial & <br>Residential</span>
                                     </div>
 
                                     <!-- LAYER NR. 7 [ for title ] -->
                                     <div class="tp-caption RotatingWords-TitleWhite   tp-resizeme  tounblur"
-                                         data-fontsize="['60','60','40','24']"
+                                         data-fontsize="['60','60','60','60']"
                                          data-frames='[
                                     {"delay":12000,"split":"chars","splitdelay":0.1,"speed":500,"frame":"0","from":"sX:0.8;sY:0.8;opacity:0;","to":"o:1;","ease":"Power4.easeOut"},
                                     {"delay":"wait","split":"chars","splitdelay":0.03,"speed":500,"frame":"999","to":"sX:0.9;sY:0.9;opacity:0;","ease":"Power3.easeIn"}
                                     ]' data-height="none"
-                                         data-hoffset="['570','500','350','220']"
+                                         data-hoffset="['570','500','300','175']"
                                          data-lineheight="['70','70','70','60']"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
@@ -462,7 +247,7 @@
                                          data-textAlign="['left','left','left','left']"
                                          data-type="text"
 
-                                         data-voffset="['250','250','250','250']"
+                                         data-voffset="['250','250','250','185']"
 
                                          data-whitespace="nowrap"
                                          data-width="none"
@@ -479,32 +264,30 @@
                                               style="font-family:'Roboto' ; ">Roofing Systems &<br>construction</span>
                                     </div>
 
-
                                     <!-- LAYER NR. 8 [ for paragraph] -->
                                     <div class="tp-caption  tp-resizeme"
-                                         data-fontsize="['18','18','18','18']"
+                                         data-fontsize="['25','25','35','35']"
                                          data-frames='[
                                     {"from":"y:100px(R);opacity:0;","speed":2000,"to":"o:1;","delay":1000,"ease":"Power4.easeOut"},
                                     {"delay":"wait","speed":1000,"to":"y:-50px;opacity:0;","ease":"Power2.easeInOut"}
                                     ]' data-height="['none','none','none','none']"
-                                         data-hoffset="['0','0','0','0']" data-lineheight="['30','30','30','24']"
+                                         data-hoffset="['0','0','0','0']" data-lineheight="['30','30','35','30']"
                                          data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
                                          data-paddingright="[0,0,0,0]"
                                          data-paddingtop="[0,0,0,0]"
                                          data-responsive_offset="on"
-
                                          data-textAlign="['center','center','center','center']"
                                          data-type="text"
                                          data-voffset="['400','400','400','380']"
                                          data-whitespace="['normal','normal','normal','normal']"
-                                         data-width="['800','800','600','300']"
+                                         data-width="['1000','1000','800','600']"
                                          data-x="['center','center','center','center']"
                                          data-y="['top','top','top','top']"
                                          id="slide-100-layer-8"
 
                                          style="z-index: 13;
-                                    font-weight: 500;
+                                    font-weight: 400;
                                     color: rgba(255, 255, 255, 0.85);
                                     border-width:0px;">
                                         <span style="font-family:'Roboto';">Since 2001, We have proudly provided Wildwood, Eureka and the Greater St Louis area with top quality residential and commercial roofing and construction services.</span>
@@ -520,7 +303,7 @@
                                          data-lineheight="['none','none','none','none']" data-paddingbottom="[0,0,0,0]"
                                          data-paddingleft="[0,0,0,0]"
                                          data-paddingright="[0,0,0,0]"
-                                         data-paddingtop="[0,0,0,0]"
+                                         data-paddingtop="[0,0,0,5]"
                                          data-responsive_offset="on"
 
                                          data-textAlign="['center','center','center','center']"
@@ -537,10 +320,6 @@
                                     </div>
 
                                 </li>
-                                <!-- SLIDE 1 -->
-
-
-                                <!-- SLIDE 3 -->
 
                             </ul>
                             <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -665,7 +444,16 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <h1>No job is too big or too small</h1>
+                        <div class="section-head text-center">
+                            <h2 class="text-uppercase">No Job Too Big or Too Small</h2>
+                            <div class="wt-separator-outer">
+                                <div class="wt-separator style-square">
+                                    <span class="separator-left bg-primary"></span>
+                                    <span class="separator-right bg-primary"></span>
+                                </div>
+                            </div>
+                        </div>
+
                         <p>Our motivated team of experienced contractors are ready to take on any construction tasks. As mention in the Better Business Burro,
                         reflected in out 5 start rating review on Google, ARS strives to meet customer demand with the best quality of craftsman ship.
                         We have tools to give online estimates as well as on site estimates. ARS offers Free roof inspections and if we find issues our team is experienced
@@ -687,7 +475,7 @@
 
                 <!-- CAROUSEL -->
         <div class="section-full bg-white p-t80 p-b50 scale-bg-top scale-bg-bottom">
-                <div class="section-content">
+                <div class="section-content " style="background-image:url(images/background/bg1.jpg)">
                     <div class="container">
                         <div class="owl-carousel Home-services-carousel owl-btn-vertical-center">
 
@@ -695,7 +483,7 @@
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
                                     <a href="javascript:void(0);"><img alt="Commercial Roofing St Louis"
-                                                                       src="images/ars/day-care-sm.jpg"></a>
+                                                                       src="images/Commercial/Glendale/Glendale1.jpg"></a>
                                 </div>
                                 <div class="wt-info p-tb30">
                                     <h4 class="wt-title m-t0 m-b5"><a href="javascript:void(0);">Commercial</a></h4>
@@ -713,7 +501,7 @@
                             <div class="wt-box bg-white">
                                 <div class="wt-media">
                                     <a href="javascript:void(0);"><img alt="Residential Roofing St "
-                                                                       src="images/ars/big-ranch/DJI_0439.jpg"></a>
+                                                                       src="images/ars/residentail-roof2.jpg"></a>
                                 </div>
                                 <div class="wt-info p-tb30">
                                     <h4 class="wt-title m-t0 m-b5"><a href="javascript:void(0);">Residential</a></h4>
@@ -888,57 +676,49 @@
                             <span class="separator-right bg-primary"></span>
                         </div>
                     </div>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                        the industry's standard dummy text ever since the 1500s.</p>
+                    <p>Checkout out ARS's explanations and demonstrations about our vendors which allows us to put their materials to the test and determine the best partnerships and vendors we do business with!! Leave a comment below if you like what you see!</p>
                 </div>
                 <!-- TITLE END-->
                 <div class="section-content">
-                    <div class="wt-box">
-                        <div class="row">
                             <!-- COLUMNS 2 -->
-                            <div class="wt-box">
-                                <div class="row">
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="m-b30">
-                                            <div class="section-head">
-                                                <h2 class="text-uppercase">Powered by IKO</h2>
-                                                <div class="wt-separator-outer">
-                                                    <div class="wt-separator style-square">
-                                                        <span class="separator-left bg-primary"></span>
-                                                        <span class="separator-right bg-primary"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xjrv-_QtdTo" frameborder="0"
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                    allowfullscreen>
-
-                                            </iframe>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-sm-12">
-                                        <div class="m-b30">
-                                            <div class="section-head">
-                                                <h2 class="text-uppercase">High Performance: Powered by Malarkey</h2>
-                                                <div class="wt-separator-outer">
-                                                    <div class="wt-separator style-square">
-                                                        <span class="separator-left bg-primary"></span>
-                                                        <span class="separator-right bg-primary"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/IM24amVlEdw" frameborder="0"
-                                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                                    allowfullscreen>
-
-                                            </iframe>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="m-b30">
+                                <div class="section-head">
+                                    <h2 class="text-uppercase">Powered by IKO</h2>
+                                    <div class="wt-separator-outer">
+                                        <div class="wt-separator style-square">
+                                            <span class="separator-left bg-primary"></span>
+                                            <span class="separator-right bg-primary"></span>
                                         </div>
                                     </div>
                                 </div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Xjrv-_QtdTo" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+                                </iframe>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="m-b30">
+                                <div class="section-head">
+                                    <h2 class="text-uppercase">High Performance: Powered by Malarkey</h2>
+                                    <div class="wt-separator-outer">
+                                        <div class="wt-separator style-square">
+                                            <span class="separator-left bg-primary"></span>
+                                            <span class="separator-right bg-primary"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/IM24amVlEdw" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
                             <div class="m-b30">
                                 <div class="section-head">
                                     <h2 class="text-uppercase">ARS Construction - The Eagle Tile</h2>
@@ -955,30 +735,27 @@
 
                                 </iframe>
                             </div>
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <div class="m-b30">
-                                    <div class="section-head">
-                                        <h2 class="text-uppercase"> Glendale Chrysler Roofing Project</h2>
-                                        <div class="wt-separator-outer">
-                                            <div class="wt-separator style-square">
-                                                <span class="separator-left bg-primary"></span>
-                                                <span class="separator-right bg-primary"></span>
-                                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <div class="m-b30">
+                                <div class="section-head">
+                                    <h2 class="text-uppercase">Glendale Chrysler Roofing Project</h2>
+                                    <div class="wt-separator-outer">
+                                        <div class="wt-separator style-square">
+                                            <span class="separator-left bg-primary"></span>
+                                            <span class="separator-right bg-primary"></span>
                                         </div>
                                     </div>
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0btZOQrtQ6E" frameborder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                            allowfullscreen>
-
-                                    </iframe>
                                 </div>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/0btZOQrtQ6E" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowfullscreen>
+
+                                </iframe>
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </div>
         </div>
         <!-- WHY CHOOSE US SECTION END -->
@@ -1033,148 +810,11 @@
         <!-- COMPANY DETAIL SECTION End -->
     </div>
     <!-- CONTENT END -->
-
     <!-- FOOTER START -->
-    <footer class="site-footer footer-dark">
-        <div class="call-to-action-wrap call-to-action-skew bg-primary bg-no-repeat"
-             style="background-image:url(images/background/bg-4.png);">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-8">
-                        <div class="call-to-action-left p-tb20 p-r50">
-                            <h4 class="text-uppercase m-b10">Are you ready for your free roof inspection or next home
-                                improvement?</h4>
-
-                        </div>
-                    </div>
-
-                    <div class="col-md-3">
-                        <div class="call-to-action-right p-tb30">
-                            <a class="site-button-secondry  m-r15 text-uppercase font-weight-600"
-                               href="contact-us.html">
-                                Contact us <i class="fa fa-angle-double-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- FOOTER BLOCKES START -->
-        <div class="footer-top overlay-wraper">
-            <div class="overlay-main"></div>
-            <div class="container">
-                <div class="row">
-                    <!-- ABOUT COMPANY -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="widget widget_about">
-                            <h4 class="widget-title">ARS Construction</h4>
-                            <div class="logo-footer clearfix p-b15">
-                                <a href="index.html"><img alt="ARS Construction Logo"
-                                                          src="images/ars/arsconstructionlogo.png"></a>
-                            </div>
-                            <p>ARS Construction specializes in residential and commercial roofing along with exterior
-                                and interior construction. We have been servicing the Greater St Louis area since 2001
-                                with top quality construction services
-                            </p>
-                        </div>
-                    </div>
-                    <!-- RESENT POST -->
-
-                    <!-- USEFUL LINKS -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="widget widget_services">
-                            <h4 class="widget-title">Useful links</h4>
-                            <ul>
-                                <li><a href="residential.html">Residential</a></li>
-                                <li><a href="commercial.html">Commercial</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="contact-us.html">Contact Us</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                    <!-- NEWSLETTER -->
-                    <div class="col-md-4 col-sm-6">
-                        <div class="widget widget_newsletter">
-                            <h4 class="widget-title">Get Instant online quote</h4>
-                            <div class="newsletter-bx">
-                                <div class="roofr-calculator"></div>
-                            </div>
-                        </div>
-                        <!-- SOCIAL LINKS -->
-                        <div class="widget widget_social_inks">
-                            <h4 class="widget-title">Social Links</h4>
-                            <ul class="social-icons social-square social-darkest">
-                                <li><a class="fa fa-facebook" href="https://www.facebook.com/AdvancedRoofs"></a></li>
-                                <li><a class="fa fa-linkedin" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-youtube" href="javascript:void(0);"></a></li>
-                                <li><a class="fa fa-instagram" href="javascript:void(0);"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-6  p-tb20">
-                        <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                            <div class="icon-md text-primary">
-                                <span class="iconmoon-travel"></span>
-                            </div>
-                            <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase m-b0">Address</h5>
-                                <p>16943 Manchester Rd, Wildwood, MO 63040-1209</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6  p-tb20 ">
-                        <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix ">
-                            <div class="icon-md text-primary">
-                                <span class="iconmoon-smartphone-1"></span>
-                            </div>
-                            <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase m-b0">Phone</h5>
-                                <p class="m-b0">(844) 455 ROOF</p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 p-tb20">
-                        <div class="wt-icon-box-wraper left  bdr-1 bdr-gray-dark p-tb15 p-lr10 clearfix">
-                            <div class="icon-md text-primary">
-                                <span class="iconmoon-email"></span>
-                            </div>
-                            <div class="icon-content">
-                                <h5 class="wt-tilte text-uppercase m-b0">Email</h5>
-                                <p class="m-b0">ARSOffice@advancedroofsys.com</p>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
+        <footer class="site-footer footer-dark">
+     <?php include_once ('includes/footer.php'); ?>
         <!-- FOOTER COPYRIGHT -->
-        <div class="footer-bottom overlay-wraper">
-            <div class="overlay-main"></div>
-            <div class="constrot-strip"></div>
-            <div class="container p-t30">
-                <div class="row">
-                    <div class="wt-footer-bot-left">
-                        <span class="copyrights-text">© 2020 ARS Construction. All Rights Reserved. Designed By <a
-                                about="_blank" href="https://codestlouis.com">Code St Louis</a></span>
-                    </div>
-                    <div class="wt-footer-bot-right">
-                        <ul class="copyrights-nav pull-right">
-                            <li><a href="javascript:void(0);">Terms & Condition</a></li>
-                            <li><a href="javascript:void(0);">Privacy Policy</a></li>
-                            <li><a href="contact-us.html">Contact Us</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
+         <?php include_once ('includes/sub-footer.php'); ?>
     </footer>
     <!-- FOOTER END -->
 
@@ -1267,22 +907,6 @@
      https://firebase.google.com/docs/web/setup#available-libraries -->
 <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
 
-<script>
-    // Your web app's Firebase configuration
-    var firebaseConfig = {
-        apiKey: "AIzaSyCrB3HVCo-b253QKvLrNUUwHS5oNnHAdVE",
-        authDomain: "codestl-dev.firebaseapp.com",
-        databaseURL: "https://codestl-dev.firebaseio.com",
-        projectId: "codestl-dev",
-        storageBucket: "codestl-dev.appspot.com",
-        messagingSenderId: "34398247556",
-        appId: "1:34398247556:web:50b80eb27ddb026dd8c0d1",
-        measurementId: "G-ER3MJ8BJVE"
-    };
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-    firebase.analytics();
-</script>
 
 <!-- JAVASCRIPT  FILES ========================================= -->
 <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script><!-- JQUERY.MIN JS -->
@@ -1313,7 +937,7 @@
 <script src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js" type="text/javascript"></script>
 <script src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js" type="text/javascript"></script>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading)-->
 <script src="plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js"
         type="text/javascript"></script>
 <script src="plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js"
