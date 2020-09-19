@@ -1,9 +1,10 @@
 <?php
-$Page='Home';
-$Title='Code St Louis';
-$metaDescription='Code St Louis is taking a different approach to scale efficient development teams to support the rapid technology growth in St Louis. ';
-$metaImage='/assets/images/meta-codestl-io.PNG';
-$ogMetaDescription='Providing St Louis with automation solutions to increase productivity in the work force'
+$Page='Salvation-Army';
+$Title='ARS Construction | Salvation-Army Roofing Project';
+$Url='https://www.advancedroofsys.com/salvation-army';
+$metaDescription='Salvation Army Commercial Flat Roofing Completion';
+$metaImage='/images/fleet.jpg';
+$ogMetaDescription='Salvation Army Commercial Flat Roofing Completion. Professional St. Louis Construction.';
 ?>
 
 <!DOCTYPE html>

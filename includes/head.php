@@ -1,16 +1,22 @@
  <meta charset="utf-8"/>
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta content="" name="keywords"/>
+
+
+ <meta content="" name="keywords"/>
     <meta content="" name="author"/>
     <meta content="" name="robots"/>
-    <meta content="" name="description"/>
+ <meta property="og:url"                content="<?php echo $Url;?>" />
+ <meta property="og:title"              content="<?php echo $Title;?>" />
+ <meta property="description"           content="<?php echo $metaDescription;?>" />
+ <meta property="og:description"        content="<?php echo $ogMetaDescription;?>" />
+ <meta property="og:image"              content="<?php echo $metaImage;?>" />
     <link href="/index.php" rel="canonical">
     <!-- FAVICONS ICON -->
     <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
 
     <!-- PAGE TITLE HERE -->
-    <title>ARS Construction | Commercial Roofing St Louis</title>
+ <title><?php echo $Title;?></title>
 
     <!-- MOBILE SPECIFIC -->
     <meta content="width=device-width, initial-scale=1" name="viewport">

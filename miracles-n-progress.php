@@ -1,9 +1,10 @@
 <?php
-$Page='Home';
-$Title='Code St Louis';
-$metaDescription='Code St Louis is taking a different approach to scale efficient development teams to support the rapid technology growth in St Louis. ';
-$metaImage='/assets/images/meta-codestl-io.PNG';
-$ogMetaDescription='Providing St Louis with automation solutions to increase productivity in the work force'
+$Page='Miracles N Progress';
+$Title='ARS | Sponsoring Miracles N Progress';
+$Url='https://www.advancedroofsys.com/miracles-n-progress';
+$metaDescription='ARS Construction is a proud sponsor of Miracles N Progress';
+$metaImage='/images/fleet.jpg';
+$ogMetaDescription='Are you in need of a new roof? Do you need updating to the outside and inside of your home? If so, let the professionals at ARS Construction be the ones to help take your home to the next level. Professional St. Louis Construction.';
 ?>
 <!DOCTYPE html>
 

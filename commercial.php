@@ -1,9 +1,10 @@
 <?php
-$Page='Home';
-$Title='Code St Louis';
-$metaDescription='Code St Louis is taking a different approach to scale efficient development teams to support the rapid technology growth in St Louis. ';
-$metaImage='/assets/images/meta-codestl-io.PNG';
-$ogMetaDescription='Providing St Louis with automation solutions to increase productivity in the work force'
+$Page='Contact Us';
+$Title='ARS Construction | Commercial Roofing St. Louis';
+$Url='https://www.advancedroofsys.com/commercial-roofing-services';
+$metaDescription='We know the importance of making sure that your business runs smoothly on all parts, and that also includes your roofs. If you are experiencing leaks or need a new roof, let the experts at ARS Construction be the ones to professionally repair or install your commercial roofs.';
+$metaImage='/images/fleet.jpg';
+$ogMetaDescription='We know the importance of making sure that your business runs smoothly on all parts, and that also includes your roofs. If you are experiencing leaks or need a new roof, let the experts at ARS Construction be the ones to professionally repair or install your commercial roofs.'
 ?>
 <!DOCTYPE html>
 
