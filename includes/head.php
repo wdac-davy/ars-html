@@ -10,8 +10,14 @@
  <meta property="description"           content="<?php echo $metaDescription;?>" />
  <meta property="og:description"        content="<?php echo $ogMetaDescription;?>" />
  <meta property="og:image"              content="<?php echo $metaImage;?>" />
-    <link href="/index.php" rel="canonical">
-    <!-- FAVICONS ICON -->
+ <link rel="canonical"                  href="<?php echo $CanonicalLink?>" />
+
+ <!-- AMP SCRIPT -->
+ <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+ <script async src="https://cdn.ampproject.org/v0.js"></script>
+
+
+ <!-- FAVICONS ICON -->
     <link href="images/favicon.ico" rel="icon" type="image/x-icon"/>
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon"/>
 
@@ -19,7 +25,7 @@
  <title><?php echo $Title;?></title>
 
     <!-- MOBILE SPECIFIC -->
-    <meta content="width=device-width, initial-scale=1" name="viewport">
+ <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1">
 
     <!-- [if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
