@@ -5,6 +5,12 @@ $Url='https://www.advancedroofsys.com/salvation-army';
 $metaDescription='Salvation Army Commercial Flat Roofing Completion';
 $metaImage='/images/fleet.jpg';
 $ogMetaDescription='Salvation Army Commercial Flat Roofing Completion. Professional St. Louis Construction.';
+$jobTitle='Salvation Army';
+$jobDesc='We Love Salvation army it was the best job we have done, we had a lot of fun.';
+$sliderImg1='images/salvation-army/salvation-army-1.jpg';
+$sliderImg2='images/salvation-army/salvation-army-2.jpg';
+$sliderImg3='images/salvation-army/salvation-army-3.jpg';
+
 ?>
 
 <!DOCTYPE html>
@@ -102,24 +108,35 @@ $ogMetaDescription='Salvation Army Commercial Flat Roofing Completion. Professio
                     <!-- RIGHT PART -->
                     <div class="col-md-9 col-sm-9 p-tb10">
                         <!-- BLOG POST CAROUSEL -->
-                        <div class="section-content"><h2>ARS Construction works with all types of commercials roofs in St Louis. Here are some photos from the Salvation Army</h2>
+
+                        <div class="section-content">
+                            <div class="section-head text-center">
+                                <h2 class="text-uppercase"><?php echo $jobTitle;?></h2>
+                                <div class="wt-separator-outer">
+                                    <div class="wt-separator style-square">
+                                        <span class="separator-left bg-primary"></span>
+                                        <span class="separator-right bg-primary"></span>
+                                    </div>
+                                </div>
+                                <p><?php echo $jobDesc;?></p>
+                            </div>
                             <div class="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center container" style=" width:100%">
 
                                 <div class="item">
                                     <div class="aon-thum-bx">
-                                        <img alt="" src="images/salvation-army/salvation-army-1.jpg">
+                                        <img alt="" src="<?php echo $sliderImg1;?>">
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="aon-thum-bx">
-                                        <img alt="" src="images/salvation-army/salvation-army-2.jpg">
+                                        <img alt="" src="<?php echo $sliderImg2;?>">
                                     </div>
                                 </div>
 
                                 <div class="item">
                                     <div class="aon-thum-bx">
-                                        <img alt="" src="images/salvation-army/salvation-army-3.jpg">
+                                        <img alt="" src="<?php echo $sliderImg3;?>">
                                     </div>
                                 </div>
 

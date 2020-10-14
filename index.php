@@ -1,7 +1,7 @@
 <?php
 $Page='Home';
 $Title='ARS Construction';
-$Url='https://www.advancedroofsys.com/home';
+$Url='https://www.advancedroofsys.com';
 $metaDescription='ARS Construction was founded 2001 as full-service General Contractor';
 $metaImage='/images/fleet.jpg';
 $ogMetaDescription='ARS Construction provides specialized commercial and residential roof repair, as well as Interior and Exterior Home Remodeling and Restoration in the St. Louis area.';

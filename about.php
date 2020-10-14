@@ -1,10 +1,11 @@
 <?php
 $Page='About Us';
 $Title='ARS Construction | About Us';
-$Url='https://www.advancedroofsys.com/about';
+$Url='https://www.advancedroofsys.com/about-us.php';
 $metaDescription='At ARS Construction, our main priority is delivering the best customer service. We accomplish this by making sure we have the right team. Each member has the training and experience to handle any size job. We make sure to stay up-to-date on the latest trends so that we can answer any of your questions. If you are not sure about what would work best, our team is ready to help come up with a plan that you will be happy with. If you are ready for a change, call us today!';
 $metaImage='/images/fleet.jpg';
 $ogMetaDescription='We at ARS Construction would never claim to be perfect but we always pledge that we are 100% committed to making it right each and every time! Professional St. Louis Construction. ';
+$pageActive='';
 ?>
 <!DOCTYPE html>
 

@@ -1,7 +1,7 @@
 <?php
-$Page='Commercial Construction Services';
-$Title='ARS Construction | Commercial Construction';
-$Url='https://www.advancedroofsys.com/commercial.php';
+$Page='';
+$Title='Commercial Construction';
+$Url='';
 $metaDescription='';
 $metaImage='';
 $ogMetaDescription='';

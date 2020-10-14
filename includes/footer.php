@@ -50,7 +50,7 @@
                             <ul>
                                 <li><a href="../gallery.php.php">Gallery</a></li>
                                 <li><a href="../residential.php">Residential</a></li>
-                                <li><a href="../commercial.php">Commercial</a></li>
+                                <li><a href="../glendale.php">Commercial</a></li>
                                 <li><a href="../about.php">About Us</a></li>
                                 <li><a href="../contact-us.php">Contact Us</a></li>
                             </ul>

@@ -1,12 +1,12 @@
 <?php
-$Page='Commercial Construction Services';
-$Title='ARS Construction | Commercial Construction';
-$Url='https://www.advancedroofsys.com/commercial.php';
+$Page='24 Hour Emergency Services';
+$Title='ARS Construction | 24 Hour Emergency Services';
+$Url='https://www.advancedroofsys.com/24-hour-emergency.php';
 $metaDescription='';
 $metaImage='';
 $ogMetaDescription='';
-$jobTitle='';
-$jobDesc='';
+$jobTitle='24 Hour Emergency Services';
+$jobDesc='At ARS we will come to your aid in at any hour';
 $sliderImg1='';
 $sliderImg2='';
 $sliderImg3='';
@@ -15,9 +15,9 @@ $sliderImg3='';
 
 <!DOCTYPE html>
 
-<html lang="en">
-
 <head>
+
+
     <?php include_once ('includes/head.php'); ?>
 
 </head>
@@ -39,11 +39,11 @@ $sliderImg3='';
     <div class="page-content  bg-white">
 
         <!-- INNER PAGE BANNER -->
-        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/salvation-army/salvation-army-1.jpg);">
+        <div class="wt-bnr-inr overlay-wraper" style="background-image:url();">
             <div class="overlay-main bg-black opacity-02"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Salvation Army</h1>
+                    <h1 class="text-white">24 Hour Emergency Services</h1>
                 </div>
             </div>
         </div>
@@ -54,7 +54,7 @@ $sliderImg3='';
             <div class="container">
                 <ul class="wt-breadcrumb breadcrumb-style-2">
                     <li><a href="javascript:void(0);"><i class="fa fa-home"></i> Home</a></li>
-                    <li>Salvation Army Roofing Project</li>
+                    <li>Emergency</li>
                 </ul>
             </div>
         </div>
@@ -142,107 +142,107 @@ $sliderImg3='';
 
                             </div>
 
-                            </div>
                         </div>
                     </div>
-                    <!-- RIGHT PART -->
                 </div>
+                <!-- RIGHT PART -->
             </div>
         </div>
-        <!-- SECTION CONTENT END -->
-
-        <!-- CONTENT END -->
     </div>
-    <!-- CONTENT END -->
+    <!-- SECTION CONTENT END -->
 
-    <!-- FOOTER START -->
+    <!-- CONTENT END -->
+</div>
+<!-- CONTENT END -->
+
+<!-- FOOTER START -->
 <footer class="site-footer footer-dark">
     <?php include_once ('includes/footer.php'); ?>
     <!-- FOOTER COPYRIGHT -->
     <?php include_once ('includes/sub-footer.php'); ?>
 </footer>
-    <!-- FOOTER END -->
+<!-- FOOTER END -->
 
 
-    <!-- SCROLL TOP BUTTON -->
-    <button class="scroltop"><span class=" iconmoon-house relative" id="btn-vibrate"></span>Top</button>
+<!-- SCROLL TOP BUTTON -->
+<button class="scroltop"><span class=" iconmoon-house relative" id="btn-vibrate"></span>Top</button>
 
-    <!-- MODAL  LOGIN -->
-    <div class="modal fade " id="Login-form" role="dialog">
-        <div class="modal-dialog modal-sm">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header bg-primary">
-                    <button class="close" data-dismiss="modal" type="button">&times;</button>
-                    <h4 class="modal-title text-white">Login Your Account</h4>
-                </div>
-                <div class="modal-body p-a30">
-                    <form id="log-form">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input class="form-control" placeholder="Enter Username" type="text">
-                            </div>
+<!-- MODAL  LOGIN -->
+<div class="modal fade " id="Login-form" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <button class="close" data-dismiss="modal" type="button">&times;</button>
+                <h4 class="modal-title text-white">Login Your Account</h4>
+            </div>
+            <div class="modal-body p-a30">
+                <form id="log-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            <input class="form-control" placeholder="Enter Username" type="text">
                         </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                <input class="form-control" placeholder="Enter email" type="email">
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" placeholder="Enter email" type="email">
                         </div>
-                        <button class="site-button-secondry text-uppercase btn-block m-b10" type="button">Submit
-                        </button>
-                        <span class="font-12">Don't have an account? <a class="text-primary" href="javascript:">Register Here</a></span>
-                    </form>
-                </div>
-                <div class="modal-footer text-center">
-                    <div class="text-center"><img alt="" src="images/logo-dark.png"></div>
-                </div>
+                    </div>
+                    <button class="site-button-secondry text-uppercase btn-block m-b10" type="button">Submit
+                    </button>
+                    <span class="font-12">Don't have an account? <a class="text-primary" href="javascript:">Register Here</a></span>
+                </form>
+            </div>
+            <div class="modal-footer text-center">
+                <div class="text-center"><img alt="" src="images/logo-dark.png"></div>
             </div>
         </div>
     </div>
+</div>
 
-    <!-- MODAL  REGISTER -->
-    <div class="modal fade " id="Register-form" role="dialog">
-        <div class="modal-dialog modal-sm">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header bg-primary">
-                    <button class="close" data-dismiss="modal" type="button">&times;</button>
-                    <h4 class="modal-title text-white">Register here</h4>
-                </div>
-                <div class="modal-body p-a30">
-                    <form id="reg-form">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                <input class="form-control" placeholder="Enter Username" type="text">
-                            </div>
+<!-- MODAL  REGISTER -->
+<div class="modal fade " id="Register-form" role="dialog">
+    <div class="modal-dialog modal-sm">
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <button class="close" data-dismiss="modal" type="button">&times;</button>
+                <h4 class="modal-title text-white">Register here</h4>
+            </div>
+            <div class="modal-body p-a30">
+                <form id="reg-form">
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                            <input class="form-control" placeholder="Enter Username" type="text">
                         </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                <input class="form-control" placeholder="Enter email" type="email">
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" placeholder="Enter email" type="email">
                         </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                                <input class="form-control" placeholder="Enter Password" type="email">
-                            </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-key"></i></span>
+                            <input class="form-control" placeholder="Enter Password" type="email">
                         </div>
-                        <button class="site-button-secondry text-uppercase btn-block m-b10" type="button">Submit
-                        </button>
-                        <span class="font-12">Already Have an Account? <a class="text-primary"
-                                                                          href="javascript:">Login</a></span>
-                    </form>
-                </div>
-                <div class="modal-footer text-center">
-                    <div class="text-center"><img alt="" src="images/logo-dark.png"></div>
-                </div>
+                    </div>
+                    <button class="site-button-secondry text-uppercase btn-block m-b10" type="button">Submit
+                    </button>
+                    <span class="font-12">Already Have an Account? <a class="text-primary"
+                                                                      href="javascript:">Login</a></span>
+                </form>
+            </div>
+            <div class="modal-footer text-center">
+                <div class="text-center"><img alt="" src="images/logo-dark.png"></div>
             </div>
         </div>
     </div>
+</div>
 </div>
 <!-- firebase scripts -->
 <!-- The core Firebase JS SDK is always required and must be listed first -->

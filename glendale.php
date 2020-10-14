@@ -1,18 +1,17 @@
 <?php
-$Page='Commercial Construction Services';
-$Title='ARS Construction | Commercial Construction';
-$Url='https://www.advancedroofsys.com/commercial.php';
-$metaDescription='';
-$metaImage='';
-$ogMetaDescription='';
-$jobTitle='';
+$Page='Contact Us';
+$Title='ARS Construction | Glendale Chrysler Jeep Dodge Ram';
+$Url='https://www.advancedroofsys.com/glendale.php';
+$metaDescription='We know the importance of making sure that your business runs smoothly on all parts, and that also includes your roofs. If you are experiencing leaks or need a new roof, let the experts at ARS Construction be the ones to professionally repair or install your commercial roofs.';
+$metaImage='/images/fleet.jpg';
+$ogMetaDescription='We know the importance of making sure that your business runs smoothly on all parts, and that also includes your roofs. If you are experiencing leaks or need a new roof, let the experts at ARS Construction be the ones to professionally repair or install your commercial roofs.';
+$jobTitle='Glendale Chrysler Jeep Dodge Ram';
 $jobDesc='';
 $sliderImg1='';
 $sliderImg2='';
 $sliderImg3='';
 
 ?>
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -39,11 +38,11 @@ $sliderImg3='';
     <div class="page-content  bg-white">
 
         <!-- INNER PAGE BANNER -->
-        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/salvation-army/salvation-army-1.jpg);">
+        <div class="wt-bnr-inr overlay-wraper" style="background-image:url(images/dealership/dealer4.jpg);">
             <div class="overlay-main bg-black opacity-02"></div>
             <div class="container">
                 <div class="wt-bnr-inr-entry">
-                    <h1 class="text-white">Salvation Army</h1>
+                    <h1 class="text-white">Glendale Chrysler Jeep Dodge Ram</h1>
                 </div>
             </div>
         </div>
@@ -54,7 +53,7 @@ $sliderImg3='';
             <div class="container">
                 <ul class="wt-breadcrumb breadcrumb-style-2">
                     <li><a href="javascript:void(0);"><i class="fa fa-home"></i> Home</a></li>
-                    <li>Salvation Army Roofing Project</li>
+                    <li>Glendale Chrysler Project</li>
                 </ul>
             </div>
         </div>
@@ -108,40 +107,46 @@ $sliderImg3='';
                     <!-- RIGHT PART -->
                     <div class="col-md-9 col-sm-9 p-tb10">
                         <!-- BLOG POST CAROUSEL -->
-
                         <div class="section-content">
-                            <div class="section-head text-center">
-                                <h2 class="text-uppercase"><?php echo $jobTitle;?></h2>
-                                <div class="wt-separator-outer">
-                                    <div class="wt-separator style-square">
-                                        <span class="separator-left bg-primary"></span>
-                                        <span class="separator-right bg-primary"></span>
-                                    </div>
-                                </div>
-                                <p><?php echo $jobDesc;?></p>
-                            </div>
-                            <div class="owl-carousel service-detail-carousel owl-btn-vertical-center owl-dots-bottom-center container" style=" width:100%">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/8mKSitggwpA"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
 
-                                <div class="item">
-                                    <div class="aon-thum-bx">
-                                        <img alt="" src="<?php echo $sliderImg1;?>">
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="aon-thum-bx">
-                                        <img alt="" src="<?php echo $sliderImg2;?>">
-                                    </div>
-                                </div>
-
-                                <div class="item">
-                                    <div class="aon-thum-bx">
-                                        <img alt="" src="<?php echo $sliderImg3;?>">
-                                    </div>
-                                </div>
+                            </iframe>
 
                             </div>
+                            <div class="wt-box">
+                                <h2> Installed Genflex TPO Roofing System</h2>
+                                <p>
+                                    To start this project we began with tearing out the existing roofing system, which
+                                    was approximately 5 inches or more. We installed a new drainage system, and replaced
+                                    a
+                                    large section of rusted metal decking. We then installed a Custom Tapered ISO System
+                                    Insulation (R30_), a fully adhered Genflex Roofing Systems TPO .060mil System, and
+                                    all new coping cap and gravel stop edge metal detail
+                                </p>
 
+                                <p>
+                                    This System included a 20 Year Systems "No Dollar Limit" (NDL) Warranty that
+                                    includes 110MPH Wind, 2" hail and a Full Systems Warranty
+                                </p>
+                            </div>
+                            <div class="row wt-box">
+
+                                <div class="col-md-6 col-12-sm">
+                                    <h2>Glendale Part 2</h2>
+                                    <p>Our team at ARS installed 26000sf Roofing Project and HVAC Project:
+                                        Removal of Multiple Layers of Foam, Gravel, Built Up Roofing
+                                        Installation of Fully Tapered ISO System with HD Guard ISO
+                                        GenFlex Roofing Systems .060mil TPO Installation Fully Adhered
+                                    </p>
+                                </div>
+                                <div class="col-md-6 col-12-sm">
+                                    <h2>Glendale Part 2</h2>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/0btZOQrtQ6E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -328,4 +333,5 @@ $sliderImg3='';
 </body>
 
 </html>
+
 

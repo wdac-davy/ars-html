@@ -24,9 +24,9 @@
                                 <a href="../residential.php">Residential</a>
                             </li>
                             <li class="active">
-                                <a href="javascript:">Commercial<i class="fa fa-chevron-down"></i></a>
+                                <a href="../commercial.php">Commercial<i class="fa fa-chevron-down"></i></a>
                                 <ul class="sub-menu">
-                                    <li><a href="../commercial.php">Glendale Chrysler</a></li>
+                                    <li><a href="../glendale.php">Glendale Chrysler</a></li>
                                     <li><a href="../salvation-army.php">Salvation Army</a></li>
                                 </ul>
                             </li>
@@ -49,6 +49,9 @@
                             </li>
                             <li>
                                 <a href="../contact-us.php">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="../24-hour-emergency.php">Emergency Services</a>
                             </li>
                         </ul>
                     </div>
