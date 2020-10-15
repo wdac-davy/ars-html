@@ -5,6 +5,12 @@ $Url='https://www.advancedroofsys.com';
 $metaDescription='ARS Construction was founded 2001 as full-service General Contractor';
 $metaImage='/images/fleet.jpg';
 $ogMetaDescription='ARS Construction provides specialized commercial and residential roof repair, as well as Interior and Exterior Home Remodeling and Restoration in the St. Louis area.';
+
+function makeImage(string $src, $amp = false) {
+    if ($amp) {
+        return '<amp-img>';
+    }
+}
 ?>
 
 <!DOCTYPE html>

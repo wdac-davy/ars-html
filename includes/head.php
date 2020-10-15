@@ -40,7 +40,7 @@
         to compile
     -->
 
-
+    <?php if(!$_GET['amp']): ?>
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <!-- FLATICON STYLE SHEET -->
@@ -79,6 +79,8 @@
     <!-- estimator js -->
 
     <script cid="2924" src="https://calculator.roofr.com/roofr-calculator.js"></script>
+
+    <?php endif; ?>
 
     <!--
     TODO fix this structured data
